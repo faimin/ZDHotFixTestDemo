@@ -1,0 +1,30 @@
+PODS:
+  - IQKeyboardManager (4.0.8)
+  - JSPatch (1.1.3):
+    - JSPatch/Core (= 1.1.3)
+  - JSPatch/Core (1.1.3)
+  - ReactiveObjC (2.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager (~> 4.0.8)
+  - JSPatch (~> 1.1.3)
+  - ReactiveObjC (from `https://github.com/ReactiveCocoa/ReactiveObjC`, branch `selector-signal-interop`)
+
+EXTERNAL SOURCES:
+  ReactiveObjC:
+    :branch: selector-signal-interop
+    :git: https://github.com/ReactiveCocoa/ReactiveObjC
+
+CHECKOUT OPTIONS:
+  ReactiveObjC:
+    :commit: 7dfc280e55e8affb1d88bde65382f42c20ddb27f
+    :git: https://github.com/ReactiveCocoa/ReactiveObjC
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  JSPatch: 02cfed591cb907bbfe80a346666e5a35fc2d349d
+  ReactiveObjC: d92f5be3f4336aaba9e839286b879f541ffd1cd6
+
+PODFILE CHECKSUM: 71231d51f94fc9c88be628cdf5ee9266682bbb24
+
+COCOAPODS: 1.2.0
